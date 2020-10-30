@@ -33,7 +33,8 @@ func (l *LinkCommands) buildLinks() {
 	l.registerInfoDagCommand("ects", "Link naar ECTS fiches", "Bekijk hier de ECTS fiches van ELO-ICT: http://onderwijsaanbodkempen.thomasmore.be/2019/opleidingen/n/SC_51260633.html & Toegepaste Informatica: http://onderwijsaanbodkempen.thomasmore.be/opleidingen/n/SC_51260641.html")
 	//l.registerLinkCommand("lunch", "Link naar weekmenu", "Heb je honger? Bekijk hier het menu voor deze week: https://thomasmore365.sharepoint.com/sites/James/NL/stuvo/Paginas/Weekmenu.aspx?tmbaseCampus=Geel")
 	l.registerLinkCommand("sharepoint", "Link naar Studentenportaal", "Bekijk hier de 365 sharepoint van de ITFactory: https://thomasmore365.sharepoint.com/sites/s.itfactory/SitePages/Start.aspx")
-	l.registerLinkCommand("corona", "Link naar Corona informatie", "Zit je met vragen hoe thomasmore omgaat met corona? Bekijk dan zeker deze pagina: https://thomasmore365.sharepoint.com/sites/s-Studentenvoorzieningen/SitePages/Corona.aspx")
+	l.registerLinkCommand("corona", "Link naar Corona informatie", "Zit je met vragen hoe thomasmore omgaat met corona? Bekijk dan zeker deze pagina: 
+			      ")
 	l.registerInfoDagCommand("stuvo", "Link naar Stuvo", "Heb je nood aan een goed gesprek? Neem dan zeker contact op met Stuvo: https://thomasmore365.sharepoint.com/sites/s-Studentenvoorzieningen")
 	l.registerInfoDagCommand("discord", "Link naar Discord documentatie", "Nog een beetje in de war over hoe Discord werkt?: https://support.discordapp.com/hc/nl")
 	l.registerLinkCommand("kot", "Link naar kot informatie", "Informatie nodig rond op kot gaan? https://www.thomasmore.be/studenten/op-kot")
@@ -57,6 +58,7 @@ func (l *LinkCommands) buildLinks() {
 	l.registerLinkCommand("twitch", "Link naar ITF Twitch kanaal", "Af en toe livestreamen we wat games op ons Twitch kanaal: https://www.twitch.tv/itfactorygaming")
 	l.registerLinkCommand("positief", "Link naar covid 19 meld formulier","Heb je een bevestigde covid-19 besmetting? Laat dit dan hier weten: https://thomasmore365.sharepoint.com/sites/s-Studentenadministratie/SitePages/Melden-van-een-bevestigde-COVID-19-besmetting.aspx")
 	l.registerLinkCommand("studentenraad", "Contact opnemen met de studentenraad","Wil je contact opnemen met de studentenraad? Stuur ze een mailtje via: studentenraad.itfactory@thomasmore.be")
+	l.registerLinkCommand("coderood", "Meer info over code rood","Heb je meer info over code rood nodig? https://www.thomasmore.be/update-code-rood")
 
 }
 
